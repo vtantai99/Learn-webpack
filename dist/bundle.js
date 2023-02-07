@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n\n\nconsole.log((0,_sum__WEBPACK_IMPORTED_MODULE_0__.sum)(3, 3))\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n\n\nconsole.log((0,_sum__WEBPACK_IMPORTED_MODULE_0__.sum)(3, 3))\n\n\nconsole.log(first)\n\n//# sourceURL=webpack://webpack/./src/index.js?");
 
 /***/ }),
 
