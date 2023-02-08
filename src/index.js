@@ -1,3 +1,4 @@
 import { sum } from "./sum";
+import { formatDistance } from "date-fns"
 
-console.log(sum(3, 3))
+console.log(formatDistance(subDays(new Date(), 3), new Date(), { addSuffix: true }))

@@ -3,9 +3,12 @@ const path = require("path");
 
 module.exports = {
   mode: 'development',
-  entry: './src/index',
+  entry: {
+    main: './src/index.js',
+    sum: './src/sum.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true
   },
@@ -19,5 +22,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ title: 'Webpack App', filename: 'index.html' })
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
 }
