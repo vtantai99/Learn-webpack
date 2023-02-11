@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2015",
+    "strictPropertyInitialization": false,
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
@@ -15,7 +16,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "."
+    "baseUrl": "./src"
   },
   "include": ["src", "./.eslintrc.js", "./webpack.config.js"]
 }

@@ -39,6 +39,8 @@ module.exports = {
     semi: ['error', 'never'],
     '@typescript-eslint/semi': ['error', 'never'],
     'max-len': ['error', 200],
-    'react/function-component-definition': 'off'
+    'react/function-component-definition': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off'
   }
 }
