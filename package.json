@@ -9,7 +9,8 @@
     "build:analyze": "webpack --mode production --env analyze",
     "preview": "serve dist/",
     "lint": "eslint --ext js,jsx,ts,tsx src/",
-    "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/"
+    "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -36,6 +37,7 @@
     "eslint-webpack-plugin": "^4.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.3",
     "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.58.0",
     "sass-loader": "^13.2.0",
